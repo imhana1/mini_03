@@ -8,10 +8,10 @@
 </head>
 <body>
   <div id="app">
-    <header th:replace="~{/fragment/header.html}"></header>
-    <nav th:replace="~{/fragment/nav.html}"></nav>
+    <header th:replace="~{./fragment/header.html}"></header>
+    <nav th:replace="~{./fragment/nav.html}"></nav>
     <main>
-      <aside th:replace="~{/fragment/aside.html}"></aside>
+      <aside th:replace="~{./fragment/aside.html}"></aside>
       <section>
         <form action="/todo/add" method="post">
           <div class="mt-3 mb-3">
@@ -31,9 +31,9 @@
           </div>
         </form>
       </section>
-      <aside th:replace="~{/fragment/aside.html}"></aside>
+      <aside th:replace="~{./fragment/aside.html}"></aside>
     </main>
-    <footer th:replace="~{/fragment/footer.html}"></footer>
+    <footer th:replace="~{./fragment/footer.html}"></footer>
   </div>
 </body>
 </html>
